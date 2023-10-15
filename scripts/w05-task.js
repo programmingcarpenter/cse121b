@@ -44,7 +44,7 @@ function reset() {
 
 function sortBy(temples) {
     reset();
-    let filter = document.getElementById('#sortBy').value;
+    let filter = document.getElementById('sortBy').value;
     let filteredTemples = [];
     switch (filter) {
         case 'utah':
