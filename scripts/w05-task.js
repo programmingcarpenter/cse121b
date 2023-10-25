@@ -11,7 +11,7 @@ const displayTemples = (temples) => {
     temples.forEach(temple => {
         let article = document.createElement('article');
 
-        let h3 = document.createElement('h3');
+        let h3 = document.createElement('h2');
         h3.textContent = temple.templeName;
 
         let img = document.createElement('img');
